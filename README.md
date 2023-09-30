@@ -1,3 +1,33 @@
+# MacDirtyCow Utilities
+
+Scripts to get elevated access using [CVE-2022-46689](https://support.apple.com/en-us/HT213532) (MacDirtyCow).
+
+## Compatability
+MacDirtyCow supports the following versions:
+- macOS 13.0.1
+- macOS 13.0
+- macOS 12.6.1 or under
+
+### [get_admin.command](https://github.com/DeltAndy123/MacDirtyCow-Utils/blob/main/get_admin.command)
+This script will allow you to set any user as admin.
+
+### [root_shell.command](https://github.com/DeltAndy123/MacDirtyCow-Utils/blob/main/root_shell.command)
+This script will open a shell session as root.
+
+### [elevate.command](https://github.com/DeltAndy123/MacDirtyCow-Utils/blob/main/elevate.command)
+This script take parameters and runs them as root.
+
+Examples:
+```bash
+./elevate.command "cat /etc/sudoers"
+./elevate.command "echo \"This command is ran as root\"" "ls /private/var/networkd/Library/Preferences"
+```
+
+## Credits
+- [MacDirtyCowDemo](https://github.com/zhuowei/MacDirtyCowDemo) to overwrite read-only files without root access
+
+# Original README.md
+
 Get root on macOS 13.0.1 with [CVE-2022-46689](https://support.apple.com/en-us/HT213532) (macOS equivalent of the Dirty Cow bug), using the testcase extracted from [Apple's XNU source](https://github.com/apple-oss-distributions/xnu/blob/xnu-8792.61.2/tests/vm/vm_unaligned_copy_switch_race.c).
 
 https://worthdoingbadly.com/macdirtycow/
