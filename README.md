@@ -10,6 +10,10 @@ MacDirtyCow supports the following versions:
 
 These scripts may get updated to support later versions using [kfd](https://github.com/felix-pb/kfd) ([CVE-2023-23536](https://support.apple.com/en-us/HT213676) and [CVE-2023-32434](https://support.apple.com/en-us/HT213814)), but it is not planned at this time.
 
+## Usage
+Download and extract [the zip](https://github.com/DeltAndy123/MacDirtyCow-Utils/archive/refs/heads/main.zip) for this repo or clone this repo, then double click the scripts you want to run.
+
+## Scripts
 ### [get_admin.command](https://github.com/DeltAndy123/MacDirtyCow-Utils/blob/main/get_admin.command)
 This script will allow you to set any user as admin.
 
