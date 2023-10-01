@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script will use the MacDirtyCow exploit to open a root shell in Mac.
+# This script uses the MacDirtyCow exploit to open a root shell in Mac.
 # 
 # This script is for educational purposes only. I am not responsible for any
 # damage caused by this script.

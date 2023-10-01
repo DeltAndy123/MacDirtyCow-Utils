@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script will use the MacDirtyCow exploit to elevate executables on a Mac.
+# This script uses the MacDirtyCow exploit to elevate executables on a Mac.
 # 
 # This script is for educational purposes only. I am not responsible for any
 # damage caused by this script.

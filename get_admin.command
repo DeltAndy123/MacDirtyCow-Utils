@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script will use the MacDirtyCow exploit to gain root access on a Mac,
+# This script uses the MacDirtyCow exploit to gain root access on a Mac,
 # then it will convert a user account to an admin account.
 # 
 # This script is for educational purposes only. I am not responsible for any

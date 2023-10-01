@@ -15,13 +15,13 @@ Download and extract [the zip](https://github.com/DeltAndy123/MacDirtyCow-Utils/
 
 ## Scripts
 ### [get_admin.command](https://github.com/DeltAndy123/MacDirtyCow-Utils/blob/main/get_admin.command)
-This script will allow you to set any user as admin.
+This script allows you to set any user as admin.
 
 ### [root_shell.command](https://github.com/DeltAndy123/MacDirtyCow-Utils/blob/main/root_shell.command)
-This script will open a shell session as root.
+This script opens a shell session as root.
 
 ### [elevate.command](https://github.com/DeltAndy123/MacDirtyCow-Utils/blob/main/elevate.command)
-This script take parameters and runs them as root.
+This script takes parameters and runs them as root.
 
 Examples:
 ```bash
