@@ -22,12 +22,9 @@ fi
 # Run exploit
 ./helpers/exploit.command
 
-# Find a sudoer
-user=$(./helpers/find_sudoer.command)
-
 # Run the executables with root access
 while [ $# -gt 0 ]; do
 	current_argument="$1"
-	su - $user -c "sudo $current_argument"
+	su - root -c "$current_argument"
 	shift
 done

