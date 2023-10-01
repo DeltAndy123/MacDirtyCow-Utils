@@ -19,7 +19,7 @@ fi
 ./helpers/exploit.command
 
 # Open root shell
-su - root -c zsh
+su - root -c /bin/zsh
 
 # Revert pam.d files to original
 sudo ./helpers/reset_pam.command
