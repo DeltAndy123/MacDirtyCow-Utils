@@ -11,6 +11,7 @@ cd $(dirname $0)
 compat=$(./helpers/compat.command)
 if [ $compat -eq 0 ]; then
 	echo "Sorry, your macOS version ($(sw_vers -productVersion)) is not compatible with this program."
+	echo "Check the README.md to see supported versions."
 	exit 1
 fi
 

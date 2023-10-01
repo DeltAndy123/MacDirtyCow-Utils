@@ -4,9 +4,11 @@ Scripts to get elevated access using [CVE-2022-46689](https://support.apple.com/
 
 ## Compatability
 MacDirtyCow supports the following versions:
-- macOS 13.0.1
-- macOS 13.0
-- macOS 12.6.1 or under
+- macOS 13.0.1 or under in Ventura
+- macOS 12.6.1 or under in Monterey
+- macOS 11.7.1 or under
+
+These scripts may get updated to support later versions using [kfd](https://github.com/felix-pb/kfd) ([CVE-2023-23536](https://support.apple.com/en-us/HT213676) and [CVE-2023-32434](https://support.apple.com/en-us/HT213814)), but it is not planned at this time.
 
 ### [get_admin.command](https://github.com/DeltAndy123/MacDirtyCow-Utils/blob/main/get_admin.command)
 This script will allow you to set any user as admin.
